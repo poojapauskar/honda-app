@@ -153,7 +153,7 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['fina
             $result = file_get_contents($url, false, $context);
             $arr = json_decode($result,true);
 
-            /*echo $arr[0]['url'];*/
+            /*echo count($arr);*/
 
             $type=["id_proof","add_proof","bank_statement","salary_slip","it_returns"];
 
@@ -162,9 +162,18 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['fina
 
                 /*echo $arr[$i]['url'];*/
                 $url_upload = $arr[$i]['url'];
-                $filename = $_FILES[$type[$i]]["tmp_name"];
+                $filename = $_FILES[$type[$i]]["size"];
+                /*echo $filename;*/
                 $file = fopen($filename, "rb");
                 $data = fread($file, filesize($filename));
+
+                /*echo $data;*/
+                
+                /*var_dump($filename);
+                var_dump($file);
+                var_dump($data);*/
+
+                /*var_dump($_FILES[$type[$i]]["error"]);*/
 
                 $options_upload = array(
                   'http' => array(
@@ -174,6 +183,7 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['fina
                   ),
                 );
                 $context_upload  = stream_context_create($options_upload);
+                /*echo $context_upload;*/
                 $result_upload = file_get_contents($url_upload, false, $context_upload);
                 /*var_dump($result_upload);*/
                 $arr_upload = json_decode($result_upload,true);
@@ -282,7 +292,7 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['fina
   </div>
 
   <div class="col-sm-5" style="margin-top:-1%;margin-left:5%">
-      <form action="finance.php" method="post" style="background-color:white;width:300px;padding:2px 10px 10px 10px">
+      <form enctype="multipart/form-data" action="finance.php" method="post" style="background-color:white;width:300px;padding:2px 10px 10px 10px">
         
           <h6 style="font-size:18px">Get Finance</h6>
           <p style="color:red;text-align:left"><?php echo $error_message ;?></p>
