@@ -162,8 +162,8 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['fina
 
                 /*echo $arr[$i]['url'];*/
                 $url_upload = $arr[$i]['url'];
-                $filename = $_FILES[$type[$i]]["size"];
-                /*echo $filename;*/
+                $filename = $_FILES[$type[$i]]["tmp_name"];
+                /*echo $_FILES[$type[$i]];*/
                 $file = fopen($filename, "rb");
                 $data = fread($file, filesize($filename));
 

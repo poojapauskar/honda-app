@@ -54,6 +54,7 @@ $options_vehicles_of_particular_type = array(
   'http' => array(
     'header'  => array(
                     'TYPE-ID: '.$_GET['type_id'],
+                    'ACCOUNT-NAME: Bitjini'
                  ),
     'method'  => 'GET',
   ),

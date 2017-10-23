@@ -97,6 +97,7 @@ $options_details_of_selected_vehicle = array(
   'http' => array(
     'header'  => array(
                    'V-ID: '.$_GET['v_id'],
+                   'ACCOUNT-NAME: Bitjini'
                  ),
     'method'  => 'GET',
   ),
