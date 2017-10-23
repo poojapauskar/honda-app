@@ -86,17 +86,21 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['fina
   $error_message="Pan No. is required";
 }elseif(!preg_match('/^([a-zA-Z]{5})(\d{4})([a-zA-Z]{1})$/', $_POST['pan_no'])  && isset($_POST['finance_btn'])) {
   $error_message="Invalid Pan No.";
-}elseif(($_POST['id_proof'] == '' || $_POST['id_proof'] == 'null') &&  isset($_POST['finance_btn'])){
-  $error_message="Id Proof is required";
-}elseif(($_POST['add_proof'] == '' || $_POST['add_proof'] == 'null') &&  isset($_POST['finance_btn'])){
-  $error_message="Address Proof is required";
-}elseif(($_POST['bank_statement'] == '' || $_POST['bank_statement'] == 'null') &&  isset($_POST['finance_btn'])){
-  $error_message="Bank Statement is required";
-}elseif(($_POST['salary_slip'] == '' || $_POST['salary_slip'] == 'null') &&  isset($_POST['finance_btn'])){
-  $error_message="Salary Slip is required";
-}elseif(($_POST['it_returns'] == '' || $_POST['it_returns'] == 'null') &&  isset($_POST['finance_btn'])){
-  $error_message="IT Returns is required";
-}elseif(isset($_POST['finance_btn'])){
+}
+// elseif(($_POST['id_proof'] == '' || $_POST['id_proof'] == 'null') &&  isset($_POST['finance_btn'])){
+//   $error_message="ID Proof is required";
+// }
+// elseif(($_POST['add_proof'] == '' || $_POST['add_proof'] == 'null') &&  isset($_POST['finance_btn'])){
+//   $error_message="Address Proof is required";
+// }
+// elseif(($_POST['bank_statement'] == '' || $_POST['bank_statement'] == 'null') &&  isset($_POST['finance_btn'])){
+//   $error_message="Bank Statement is required";
+// }elseif(($_POST['salary_slip'] == '' || $_POST['salary_slip'] == 'null') &&  isset($_POST['finance_btn'])){
+//   $error_message="Salary Slip is required";
+// }elseif(($_POST['it_returns'] == '' || $_POST['it_returns'] == 'null') &&  isset($_POST['finance_btn'])){
+//   $error_message="IT Returns is required";
+// }
+elseif(isset($_POST['finance_btn'])){
   $url_finance = 'https://hondaproject.herokuapp.com/web_app_finance/?access_token=PQtL7kGM2fVN14XMnn9kZnVvC3uuKP';
   $options_finance = array(
     'http' => array(
@@ -389,7 +393,7 @@ if($_POST['v_id'] != ''){
 <label class="mdl-textfield__label" style="margin-top:-10%" for="id_proof" style="color:#cccccc;">ID Proof</label>
       <div class="btn1 mdl-button--raised"  style="background-color: #f1524b;" >
         <span style="margin-left:-1%;position:absolute;margin-top:-1%;">Upload</span>
-        <input type="file" id="id_proof" name="id_proof">
+        <input type="file" id="id_proof" name="id_proof" required >
       </div>
       <div class="file-path-wrapper">
         <input class="file-path validate" type="text1" placeholder="No file Choosen">
@@ -404,7 +408,7 @@ if($_POST['v_id'] != ''){
               <label class="mdl-textfield__label" style="margin-top:-10%" for="add_proof" style="color:#cccccc;">Address Proof</label>
              <div class="btn1 mdl-button--raised"  style="background-color: #f1524b;" >
              <span style="margin-left:-1%;position:absolute;margin-top:-1%;">Upload</span>
-              <input type="file" id="add_proof" name="add_proof">
+              <input type="file" id="add_proof" name="add_proof" required>
              </div>
            <div class="file-path-wrapper">
               <input class="file-path validate" type="text1" placeholder="No file Choosen">
@@ -421,7 +425,7 @@ if($_POST['v_id'] != ''){
               <label class="mdl-textfield__label" style="margin-top:-10%" for="bank_statement" style="color:#cccccc;">Bank Statement</label>
              <div class="btn1 mdl-button--raised"  style="background-color: #f1524b;">
              <span style="margin-left:-1%;position:absolute;margin-top:-1%;">Upload</span>
-              <input type="file" id="bank_statement" name="bank_statement">
+              <input type="file" id="bank_statement" name="bank_statement" required>
              </div>
            <div class="file-path-wrapper">
               <input class="file-path validate" type="text1" placeholder="No file Choosen">
@@ -438,7 +442,7 @@ if($_POST['v_id'] != ''){
               <div class="btn1 mdl-button--raised"  style="background-color: #f1524b;" >
              <span style="margin-left:-1%;position:absolute;margin-top:-1%;">Upload</span>
         
-              <input type="file" id="salary_slip" name="salary_slip">
+              <input type="file" id="salary_slip" name="salary_slip" required>
              </div>
            <div class="file-path-wrapper">
               <input class="file-path validate" type="text1" placeholder="No file Choosen">
@@ -455,7 +459,7 @@ if($_POST['v_id'] != ''){
               <label class="mdl-textfield__label" style="margin-top:-10%" for="it_returns" style="color:#cccccc;">Address Proof</label>
              <div class="btn1 mdl-button--raised"  style="background-color: #f1524b;">
              <span style="margin-left:-1%;position:absolute;margin-top:-1%;">Upload</span>
-              <input type="file" id="it_returns" name="it_returns">
+              <input type="file" id="it_returns" name="it_returns" required>
              </div>
            <div class="file-path-wrapper">
               <input class="file-path validate" type="text1" placeholder="No file Choosen">
