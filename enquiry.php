@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/slideshow.css">
+ <!--  <link rel="stylesheet" href="css/slideshow.css"> -->
   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
   <link rel="stylesheet" href="css/material.indigo.min.css">
     <!-- Material Design icon font -->
@@ -15,12 +15,12 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/vanisha-honda.css">
   <!--select-->
-  <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
+ <!--  <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css"> -->
   <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>   
   <link rel="stylesheet" href="css/mdl.css">
   <script defer src="https://rawgit.com/MEYVN-digital/mdl-selectfield/master/mdl-selectfield.min.js"></script>   
   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-  <link rel="stylesheet" href="css/material.indigo.min.css">
+ <!--  <link rel="stylesheet" href="css/material.indigo.min.css"> -->
 
   <script src="js/index.js"></script>
   <script type="text/javascript"></script>
