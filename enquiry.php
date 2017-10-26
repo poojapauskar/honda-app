@@ -17,7 +17,7 @@
   <!--select-->
  <!--  <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css"> -->
   <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>   
-<!--   <link rel="stylesheet" href="css/mdl.css"> -->
+  <link rel="stylesheet" href="css/mdl.css">
   <script defer src="https://rawgit.com/MEYVN-digital/mdl-selectfield/master/mdl-selectfield.min.js"></script>   
   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
  <!--  <link rel="stylesheet" href="css/material.indigo.min.css"> -->
@@ -119,9 +119,9 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['enq_
       <header style="background-color:#F1524B;height:110px;-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;  /* Chrome and Safari         */
      -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;  /* Firefox 3.6               */
      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;" class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row" style="margin-top:4.5%">
+        <div class="mdl-layout__header-row" style="margin-top:58px">
           <!-- Title -->
-          <img style="margin-top:-3.8%;margin-left:30px;" width="60" height="60" src="images/honda_logo_white.png"></img>
+          <img style="margin-top:-46px;margin-left:30px;" src="images/honda_logo_white.png" width="60" height="60"></img>
           <span style="margin-left:1%;font-size:20px;" lass="mdl-layout-title">Honda</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
@@ -201,7 +201,7 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['enq_
 
           <div style="align:left;margin-top:-2%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
             <input value="<?php echo $_POST['mobile'] ?>" class="mdl-textfield__input" type="text" id="mobile" name="mobile" pattern="-?[0-9]*(\.[0-9]+)?" id="inputnocheck" placeholder="+91-" style="margin-bottom:-1%" maxlength="13">
-            <label class="mdl-textfield__label" for="mobile inputnocheck" style="color:#cccccc;font-size:13px;" >Mobile</label>
+            <label class="mdl-textfield__label" for="mobile inputnocheck" style="color:#cccccc;font-size:13px;">Mobile</label>
             
               <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a phone number</span>
