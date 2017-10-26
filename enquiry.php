@@ -17,7 +17,7 @@
   <!--select-->
  <!--  <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css"> -->
   <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>   
-  <link rel="stylesheet" href="css/mdl.css">
+<!--   <link rel="stylesheet" href="css/mdl.css"> -->
   <script defer src="https://rawgit.com/MEYVN-digital/mdl-selectfield/master/mdl-selectfield.min.js"></script>   
   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
  <!--  <link rel="stylesheet" href="css/material.indigo.min.css"> -->
@@ -200,8 +200,8 @@ if(($_POST['mobile'] == '' || $_POST['mobile'] == 'null') &&  isset($_POST['enq_
           </div>
 
           <div style="align:left;margin-top:-2%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input value="<?php echo $_POST['mobile'] ?>" class="mdl-textfield__input" type="text" id="mobile" name="mobile" pattern="-?[0-9]*(\.[0-9]+)?" id="inputnocheck" placeholder="+91-" style="margin-bottom:-1%">
-            <label class="mdl-textfield__label" for="mobile inputnocheck" style="color:#cccccc;font-size:13px;">Mobile</label>
+            <input value="<?php echo $_POST['mobile'] ?>" class="mdl-textfield__input" type="text" id="mobile" name="mobile" pattern="-?[0-9]*(\.[0-9]+)?" id="inputnocheck" placeholder="+91-" style="margin-bottom:-1%" maxlength="13">
+            <label class="mdl-textfield__label" for="mobile inputnocheck" style="color:#cccccc;font-size:13px;" >Mobile</label>
             
               <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a phone number</span>

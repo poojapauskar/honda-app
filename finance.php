@@ -313,7 +313,7 @@ elseif(isset($_POST['finance_btn'])){
           </div>
 
           <div style="margin-top:-2%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input value="<?php echo $_POST['mobile']; ?>" class="mdl-textfield__input" type="text" id="mobile" name="mobile" placeholder="+91">
+            <input value="<?php echo $_POST['mobile']; ?>" class="mdl-textfield__input" type="text" id="mobile" name="mobile" placeholder="+91" maxlength="13">
             <label class="mdl-textfield__label" for="mobile" style="color:#cccccc;">Mobile</label>
           </div>
 
