@@ -188,9 +188,9 @@ elseif( (strlen(preg_replace("/[^0-9]/","",$_POST['mobile'])) >15 || strlen(preg
 
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
       <header style="background-color:#F1524B;height:110px" class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row" style="margin-top:4.5%">
+        <div class="mdl-layout__header-row" style="margin-top:58px">
           <!-- Title -->
-          <img style="margin-top:-3.8%;margin-left:30px;" src="images/honda_logo_white.png" width="60" height="60"></img>
+         <img style="margin-top:-46px;margin-left:30px;" src="images/honda_logo_white.png" width="60" height="60"></img>
 
           <span style="margin-left:1%;font-size:20px;" class="mdl-layout-title">Honda</span>
           <!-- Add spacer, to align navigation to the right -->
