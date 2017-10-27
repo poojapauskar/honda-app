@@ -1,8 +1,8 @@
 
-#second_line{
-  color:gray;
-  font-size:11px;
-  margin-top: -7%;
+#second_line {
+    color: gray;
+    font-size: 11px;
+    margin-top: auto;
 }
 #third_line{
   margin-top: -4%;
@@ -10,7 +10,7 @@
 #fourth_line{
   color:gray;
   font-size:11px;
-  margin-top: -7%;
+  margin-top: auto;
 }
 
 #heading{

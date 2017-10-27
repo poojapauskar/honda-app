@@ -3,31 +3,21 @@
 <head>
 
    <!-- Material Design Lite -->
-    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-    <link rel="stylesheet" href="css/material.indigo.min.css">
-    <!-- Material Design icon font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/honda_logo_red.png">
-
-    
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/material.indigo.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <!-- Bootstrap Design  -->
+  <link rel="icon" type="image/png" sizes="16x16" href="images/honda_logo_red.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <!--css file-->
 
     <link rel="stylesheet" href="css/slideshow.css">
-
-    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-    <!-- Material Design icon font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/vanisha-honda.css">
-
     <script src="js/index.js"></script>
     <style type="text/css">
       .mdl-mini-footer {
