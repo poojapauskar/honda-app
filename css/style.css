@@ -189,8 +189,8 @@ body {
   width: 820px;
   height: 275px;
   z-index: 1;
-  font-size: 0;
-  line-height: 0;
+  /*font-size: 0;
+  line-height: 0;*/
   /*background-color: #3a3a3a;*/
   /*border: 10px solid #3a3a3a;*/
   margin: 0 auto;

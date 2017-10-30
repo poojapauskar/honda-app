@@ -3925,7 +3925,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     background-color: #e0e0e0;
     color: #000
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .mdl-layout--fixed-drawer>.mdl-layout__drawer {
         -webkit-transform: translateX(0);
         transform: translateX(0)
@@ -3968,7 +3968,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
         color: rgba(0, 0, 0, .5)
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .mdl-layout__drawer-button {
         line-height: 54px
     }
@@ -4018,7 +4018,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     margin-left: 240px;
     width: calc(100% - 240px)
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row {
         padding-left: 40px
     }
@@ -4115,7 +4115,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
 .mdl-layout--no-drawer-button .mdl-layout__header-row {
     padding-left: 40px
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .mdl-layout--no-desktop-drawer-button .mdl-layout__header-row {
         padding-left: 40px
     }
@@ -4242,7 +4242,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     padding-left: 16px;
     width: calc(100% - 32px)
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .mdl-layout--no-desktop-drawer-button .mdl-layout__tab-bar {
         padding-left: 16px;
         width: calc(100% - 32px)
