@@ -122,8 +122,8 @@ $arr_types_subtypes = json_decode($output_types_subtypes,true);
         <input type="radio" name="slides" id="slides_4">
         <input type="radio" name="slides" id="slides_5">
         <ul>
-          <li><p>Slide 1</p></li>
-          <li><p>Slide 2</p></li>
+          <li><img style="width:870px;height:300px;" src="images/hornet.jpg"></img></li>
+          <li><img style="width:810px;height:300px;" src="images/hondacbhornet.jpg"></img></li>
           <li>
                 <div class="row">
                     <div class="col-sm-7" style="text-align:left;">
@@ -136,8 +136,12 @@ $arr_types_subtypes = json_decode($output_types_subtypes,true);
                     </div>
                   </div>
           </li>
-          <li><p>Slide 4</p></li>
-          <li><p>Slide 5</p></li>
+          <li><div class="row">
+          <img style="width:900px;height:300px;" src="images/hondaactivai.jpg"></img>
+          </div></li>
+          <li>
+           <img style="width:900px;height:300px;" src="images/hondacbshinesp.jpg"></img>
+           </li>
         </ul>
         <div class="arrows">
 
