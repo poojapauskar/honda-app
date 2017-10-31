@@ -19,6 +19,7 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style2.css">
+ <link rel="stylesheet" href="css/slideshow.css">
 <link rel="stylesheet" href="css/vanisha-honda.css">
 <script src="js/index.js"></script>
 <style type="text/css">
@@ -171,70 +172,63 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
       </div>
 
 <main class="mdl-layout__content">
-  
+  <div style="margin-top:1%">
+    <div style="text-align:center !important;background-color:#FFFFFF" class="">
+      <div id="slider1" class="csslider infinity">
+        <input type="radio" name="slides" id="slides_1">
+        <input type="radio" name="slides" id="slides_2">
+        <input type="radio" name="slides" checked="checked" id="slides_3">
+        <input type="radio" name="slides" id="slides_4">
+        <input type="radio" name="slides" id="slides_5">
+        <ul>
+          <li><img style="width:870px;height:300px;" src="images/hornet.jpg"></img></li>
+          <li><img style="width:810px;height:300px;" src="images/hondacbhornet.jpg"></img></li>
+          <li>
+                <div class="row">
+                    <div class="col-sm-7" style="text-align:left;">
+                      <h4 style="margin-top:5%;font-size:37px;margin-left:5%">Presenting Honda <br> Android App</h4>
+                      <h5 style="font-size:15px;margin-left:5%">Introducing the new Honda Android App. Now the power in your hands. Featuring new vehicle booking, insurance renewal, scheduling vehicle servicing, helpline and much more.</h5>
+                      <img style="width:30%;height:30%;margin-left:5%" src="images/playstore.png"></img>
+                    </div>
+                    <div class="col-sm-5"  style="text-align:right;height:299px;">
+                    <img style="width:55%;height:109%;margin-right:5%;margin-top:0%" src="images/mobile_app.png"></img>
+                    </div>
+                  </div>
+          </li>
+          <li><div class="row">
+          <img style="width:900px;height:300px;" src="images/hondaactivai.jpg"></img>
+          </div></li>
+          <li>
+           <img style="width:900px;height:300px;" src="images/hondacbshinesp.jpg"></img>
+           </li>
+        </ul>
+        <div class="arrows">
 
+        
+        <!-- <img src="images/slider_btn_right.png"></img> -->
 
+          <label for="slides_1"><img src="images/slider_btn_left.png"></img></label>
+          <label for="slides_2"><img src="images/slider_btn_left.png"></img></label>
+          <label for="slides_3"><img src="images/slider_btn_left.png"></img></label>
+          <label for="slides_4"><img src="images/slider_btn_left.png"></img></label>
+          <label for="slides_5"><img src="images/slider_btn_left.png"></img></label>
+          <label for="slides_1" class="goto-first"><img src="images/slider_btn_left.png"></img></label>
+          <label for="slides_5" class="goto-last"><img src="images/slider_btn_left.png"></img></label>
+        </div>
 
-<div class="mdl-layout" style="text-align:left;background-color:white;margin-top:1%">
-  <div class="container" style="margin-left:100px;">
-      <div class="col-sm-6" style="margin-left:-17px;">
-      <h3><?php echo $arr_details_of_selected_vehicle[0]['v_details']['vehicle']; ?></h3>
-      <p><?php echo $arr_details_of_selected_vehicle[0]['v_details']['description']; ?></p>
-              <div class="row" style="margin-left:-4%">
-                <div class="col-sm-2">
-                  <img style="transform:scale(0.80);" src="images/CBS.png"></img>
-                </div>
-                <div class="col-sm-10">
-                  <img style="transform:scale(0.80)" src="images/HET.png"></img>
-                </div>
-              </div>
+        <div class="navigation" style="bottom:1%">
+          <div>
+            <label for="slides_1"></label>
+            <label for="slides_2"></label>
+            <label for="slides_3"></label>
+            <label for="slides_4"></label>
+            <label for="slides_5"></label>
+          </div>
+        </div>
       </div>
-
-      <div style="text-align:right" class="col-sm-6">
-       <img style="width:50%;height:50%;margin-top:2.5%" src="<?php echo 'http://res.cloudinary.com/hdccr1s1j/image/upload/v1508400099/honda/'.$arr_details_of_selected_vehicle[0]['image_details']['link']; ?>"></img>
- </div>
-  </div>
+    </div>
 </div>
-      <!-- <div class="col-sm-6">
-                <div id="slider1" class="csslider2 infinity2">
-                    <input type="radio" name="slides" id="slides_1">
-                    <input type="radio" name="slides" id="slides_2">
-                    <input type="radio" name="slides" checked="checked" id="slides_3">
-                    <input type="radio" name="slides" id="slides_4">
-                    <input type="radio" name="slides" id="slides_5">
-                    <ul>
-                      <li><img src="images/bike.jpg"></img></li>
-                      <li><img src="images/bike.jpg"></img></li>
-                      <li><img src="images/bike.jpg"></img></li>
-                      <li><img src="images/bike.jpg"></img></li>
-                      <li><img src="images/bike.jpg"></img></li>
-                    </ul>
-                    <div class="arrows">
-                      <label for="slides_1"></label>
-                      <label for="slides_2"></label>
-                      <label for="slides_3"></label>
-                      <label for="slides_4"></label>
-                      <label for="slides_5"></label>
-                      <label for="slides_1" class="goto-first"></label>
-                      <label for="slides_5" class="goto-last"></label>
-                    </div>
-                    <div class="navigation">
-                      <div>
-                        <label for="slides_1"></label>
-                        <label for="slides_2"></label>
-                        <label for="slides_3"></label>
-                        <label for="slides_4"></label>
-                        <label for="slides_5"></label>
-                      </div>
-                    </div>
-                </div>
-      </div> -->
-
-
-
-
-
-
+    
 <div class="container" style="background-color:#E4E5E7">
 
 <div class="row">
