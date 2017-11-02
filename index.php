@@ -122,8 +122,8 @@ $arr_types_subtypes = json_decode($output_types_subtypes,true);
         <input type="radio" name="slides" id="slides_4">
         <input type="radio" name="slides" id="slides_5">
         <ul>
-          <li><p>Slide 1</p></li>
-          <li><p>Slide 2</p></li>
+          <li><p>Silder1</p></li>
+          <li><p>Silder2</p></li>
           <li>
                 <div class="row">
                     <div class="col-sm-7" style="text-align:left;">
@@ -136,8 +136,8 @@ $arr_types_subtypes = json_decode($output_types_subtypes,true);
                     </div>
                   </div>
           </li>
-          <li><p>Slide 4</p></li>
-          <li><p>Slide 5</p></li>
+          <li><p>Silder4</p></li>
+          <li><p>Silder5</p></li>
         </ul>
         <div class="arrows">
 
