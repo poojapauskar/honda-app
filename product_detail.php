@@ -6,10 +6,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='http://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>   -->
 
+  <link rel='stylesheet prefetch' href='http://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+  <link rel="stylesheet" href="css/sliderstyle.css">
 <!-- collapsable -->
 <link rel='stylesheet prefetch' href='css/table.css'>
-<link rel="stylesheet" href="css/slideshow.css">
 
 <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 <link rel="stylesheet" href="css/material.indigo.min.css">
@@ -21,7 +24,9 @@
 <link rel="stylesheet" href="css/style2.css">
 <link rel="stylesheet" href="css/vanisha-honda.css">
 <script src="js/index.js"></script>
+
 <style type="text/css">
+
 tr{
   border-bottom: 1px solid #E4E5E7;
 }
@@ -191,8 +196,49 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
       </div>
 
       <div style="text-align:right" class="col-sm-6">
-       <img style="width:50%;height:50%;margin-top:2.5%" src="<?php echo 'http://res.cloudinary.com/hdccr1s1j/image/upload/v1508400099/honda/'.$arr_details_of_selected_vehicle[0]['image_details']['link']; ?>"></img>
- </div>
+     <div class="demo1">
+    <ul class="unlist-slide" id="lightSlider">
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-5.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-5.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-6.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-6.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-7.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-7.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-8.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-8.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-9.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-9.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-10.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-10.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-11.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-12.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-13.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-13.jpg" />
+        </li>
+    </ul>
+</div>
+<!--     <script  src="js/index.js"></script>
+ -->      <!--  <img style="width:50%;height:50%;margin-top:2.5%" src="<?php echo 'http://res.cloudinary.com/hdccr1s1j/image/upload/v1508400099/honda/'.$arr_details_of_selected_vehicle[0]['image_details']['link']; ?>"></img> -->
+     </div>
   </div>
 </div>
       <!-- <div class="col-sm-6">
@@ -536,7 +582,9 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
 
 
   </main>
-
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='http://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript" src="js/sliderjs.js"></script>
 
 </body>
 </html>
