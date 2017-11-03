@@ -22,7 +22,6 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style2.css">
- <link rel="stylesheet" href="css/slideshow.css">
 <link rel="stylesheet" href="css/vanisha-honda.css">
 <script src="js/index.js"></script>
 
@@ -126,9 +125,9 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
       <header style="background-color:#F1524B;height:110px;-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;  /* Chrome and Safari         */
      -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;  /* Firefox 3.6               */
      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;" class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row " style="margin-top:58px">
+        <div class="mdl-layout__header-row" style="margin-top:4.5%">
           <!-- Title -->
-          <img style="margin-top:-46px;margin-left:30px;" src="images/honda_logo_white.png" width="60" height="60"></img>
+          <img style="margin-top:-3.8%;margin-left:30px;" src="images/honda_logo_white.png" width="60" height="60"></img>
 
           <span style="margin-left:1%;font-size:20px;" class="mdl-layout-title">Honda</span>
           <!-- Add spacer, to align navigation to the right -->
@@ -177,6 +176,10 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
       </div>
 
 <main class="mdl-layout__content">
+  
+
+
+
 <div class="mdl-layout" style="text-align:left;background-color:white;margin-top:1%">
   <div class="container" style="margin-left:100px;">
       <div class="col-sm-6" style="margin-left:-17px;">
@@ -261,45 +264,23 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
                       <label for="slides_1" class="goto-first"></label>
                       <label for="slides_5" class="goto-last"></label>
                     </div>
-                    <div class="col-sm-5"  style="text-align:right;height:299px;">
-                    <img style="width:55%;height:109%;margin-right:5%;margin-top:0%" src="images/mobile_app.png"></img>
+                    <div class="navigation">
+                      <div>
+                        <label for="slides_1"></label>
+                        <label for="slides_2"></label>
+                        <label for="slides_3"></label>
+                        <label for="slides_4"></label>
+                        <label for="slides_5"></label>
+                      </div>
                     </div>
-                  </div>
-          </li>
-          <li><div class="row">
-          <img style="width:900px;height:300px;" src="images/hondaactivai.jpg"></img>
-          </div></li>
-          <li>
-           <img style="width:900px;height:300px;" src="images/hondacbshinesp.jpg"></img>
-           </li>
-        </ul>
-        <div class="arrows">
+                </div>
+      </div> -->
 
-        
-        <!-- <img src="images/slider_btn_right.png"></img> -->
 
-          <label for="slides_1"><img src="images/slider_btn_left.png"></img></label>
-          <label for="slides_2"><img src="images/slider_btn_left.png"></img></label>
-          <label for="slides_3"><img src="images/slider_btn_left.png"></img></label>
-          <label for="slides_4"><img src="images/slider_btn_left.png"></img></label>
-          <label for="slides_5"><img src="images/slider_btn_left.png"></img></label>
-          <label for="slides_1" class="goto-first"><img src="images/slider_btn_left.png"></img></label>
-          <label for="slides_5" class="goto-last"><img src="images/slider_btn_left.png"></img></label>
-        </div>
 
-        <div class="navigation" style="bottom:1%">
-          <div>
-            <label for="slides_1"></label>
-            <label for="slides_2"></label>
-            <label for="slides_3"></label>
-            <label for="slides_4"></label>
-            <label for="slides_5"></label>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
-    
+
+
+
 <div class="container" style="background-color:#E4E5E7">
 
 <div class="row">
@@ -515,7 +496,7 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 
           <label class="mdl-textfield__label" for="mobile inputnocheck" style="color:#cccccc;">Mobile</label>
-          <input class="mdl-textfield__input" type="text" id="mobile" name="mobile" pattern="-?[0-9]*(\.[0-9]+)?" id="inputnocheck" placeholder="+91-" maxlength="13">
+          <input class="mdl-textfield__input" type="text" id="mobile" name="mobile" pattern="-?[0-9]*(\.[0-9]+)?" id="inputnocheck" placeholder="+91-">
           <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a phone number</span>
         </div>
