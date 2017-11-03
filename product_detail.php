@@ -180,7 +180,7 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
 
 
 
-<div class="mdl-layout" style="text-align:left;background-color:white;margin-top:1%">
+<div class="" style="text-align:left;background-color:white;margin-top:1%">
   <div class="container" style="margin-left:100px;">
       <div class="col-sm-6" style="margin-left:-17px;">
       <h3><?php echo $arr_details_of_selected_vehicle[0]['v_details']['vehicle']; ?></h3>
