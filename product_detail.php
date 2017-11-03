@@ -198,42 +198,11 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
       <div style="text-align:right" class="col-sm-6">
      <div class="demo1">
     <ul class="unlist-slide" id="lightSlider">
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+      <?php for($v=0;$v<count($arr_details_of_selected_vehicle[0]['image_details']);$v++){?>
+        <li class="list-slider-view" data-thumb="<?php echo 'http://res.cloudinary.com/hdccr1s1j/image/upload/v1508400099/honda/'.$arr_details_of_selected_vehicle[0]['image_details'][$v]['link']; ?>">
+            <img class="imgslide" src="<?php echo 'http://res.cloudinary.com/hdccr1s1j/image/upload/v1508400099/honda/'.$arr_details_of_selected_vehicle[0]['image_details'][$v]['link']; ?>" />
         </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-5.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-5.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-6.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-6.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-7.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-7.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-8.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-8.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-9.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-9.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-10.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-10.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-11.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-12.jpg" />
-        </li>
-        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-13.jpg">
-            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-13.jpg" />
-        </li>
+      <?php }?>
     </ul>
 </div>
 <!--     <script  src="js/index.js"></script>
