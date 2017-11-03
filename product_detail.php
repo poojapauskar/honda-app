@@ -6,10 +6,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='http://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>   -->
 
+  <link rel='stylesheet prefetch' href='http://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+  <link rel="stylesheet" href="css/sliderstyle.css">
 <!-- collapsable -->
 <link rel='stylesheet prefetch' href='css/table.css'>
-<link rel="stylesheet" href="css/slideshow.css">
 
 <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 <link rel="stylesheet" href="css/material.indigo.min.css">
@@ -22,7 +25,9 @@
  <link rel="stylesheet" href="css/slideshow.css">
 <link rel="stylesheet" href="css/vanisha-honda.css">
 <script src="js/index.js"></script>
+
 <style type="text/css">
+
 tr{
   border-bottom: 1px solid #E4E5E7;
 }
@@ -172,23 +177,89 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
       </div>
 
 <main class="mdl-layout__content">
-  <div style="margin-top:1%">
-    <div style="text-align:center !important;background-color:#FFFFFF" class="">
-      <div id="slider1" class="csslider infinity">
-        <input type="radio" name="slides" id="slides_1">
-        <input type="radio" name="slides" id="slides_2">
-        <input type="radio" name="slides" checked="checked" id="slides_3">
-        <input type="radio" name="slides" id="slides_4">
-        <input type="radio" name="slides" id="slides_5">
-        <ul>
-          <li><img style="width:870px;height:300px;" src="images/hornet.jpg"></img></li>
-          <li><img style="width:810px;height:300px;" src="images/hondacbhornet.jpg"></img></li>
-          <li>
-                <div class="row">
-                    <div class="col-sm-7" style="text-align:left;">
-                      <h4 style="margin-top:5%;font-size:37px;margin-left:5%">Presenting Honda <br> Android App</h4>
-                      <h5 style="font-size:15px;margin-left:5%">Introducing the new Honda Android App. Now the power in your hands. Featuring new vehicle booking, insurance renewal, scheduling vehicle servicing, helpline and much more.</h5>
-                      <img style="width:30%;height:30%;margin-left:5%" src="images/playstore.png"></img>
+<div class="mdl-layout" style="text-align:left;background-color:white;margin-top:1%">
+  <div class="container" style="margin-left:100px;">
+      <div class="col-sm-6" style="margin-left:-17px;">
+      <h3><?php echo $arr_details_of_selected_vehicle[0]['v_details']['vehicle']; ?></h3>
+      <p><?php echo $arr_details_of_selected_vehicle[0]['v_details']['description']; ?></p>
+              <div class="row" style="margin-left:-4%">
+                <div class="col-sm-2">
+                  <img style="transform:scale(0.80);" src="images/CBS.png"></img>
+                </div>
+                <div class="col-sm-10">
+                  <img style="transform:scale(0.80)" src="images/HET.png"></img>
+                </div>
+              </div>
+      </div>
+
+      <div style="text-align:right" class="col-sm-6">
+     <div class="demo1">
+    <ul class="unlist-slide" id="lightSlider">
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-5.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-5.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-6.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-6.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-7.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-7.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-8.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-8.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-9.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-9.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-10.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-10.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-11.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-12.jpg" />
+        </li>
+        <li class="list-slider-view" data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-13.jpg">
+            <img class="imgslide" src="https://sachinchoolur.github.io/lightslider/img/cS-13.jpg" />
+        </li>
+    </ul>
+</div>
+<!--     <script  src="js/index.js"></script>
+ -->      <!--  <img style="width:50%;height:50%;margin-top:2.5%" src="<?php echo 'http://res.cloudinary.com/hdccr1s1j/image/upload/v1508400099/honda/'.$arr_details_of_selected_vehicle[0]['image_details']['link']; ?>"></img> -->
+     </div>
+  </div>
+</div>
+      <!-- <div class="col-sm-6">
+                <div id="slider1" class="csslider2 infinity2">
+                    <input type="radio" name="slides" id="slides_1">
+                    <input type="radio" name="slides" id="slides_2">
+                    <input type="radio" name="slides" checked="checked" id="slides_3">
+                    <input type="radio" name="slides" id="slides_4">
+                    <input type="radio" name="slides" id="slides_5">
+                    <ul>
+                      <li><img src="images/bike.jpg"></img></li>
+                      <li><img src="images/bike.jpg"></img></li>
+                      <li><img src="images/bike.jpg"></img></li>
+                      <li><img src="images/bike.jpg"></img></li>
+                      <li><img src="images/bike.jpg"></img></li>
+                    </ul>
+                    <div class="arrows">
+                      <label for="slides_1"></label>
+                      <label for="slides_2"></label>
+                      <label for="slides_3"></label>
+                      <label for="slides_4"></label>
+                      <label for="slides_5"></label>
+                      <label for="slides_1" class="goto-first"></label>
+                      <label for="slides_5" class="goto-last"></label>
                     </div>
                     <div class="col-sm-5"  style="text-align:right;height:299px;">
                     <img style="width:55%;height:109%;margin-right:5%;margin-top:0%" src="images/mobile_app.png"></img>
@@ -530,7 +601,9 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
 
 
   </main>
-
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='http://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript" src="js/sliderjs.js"></script>
 
 </body>
 </html>

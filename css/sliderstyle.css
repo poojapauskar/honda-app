@@ -1,0 +1,19 @@
+.demo1 {
+    width:450px;
+}
+.unlist-slide {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+.list-slider-view {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+.imgslide {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
