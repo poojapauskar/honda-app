@@ -551,8 +551,8 @@ error_log(print_r($arr_details_of_selected_vehicle,true));
 
 
   </main>
-  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
-<script src='http://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
 <script type="text/javascript" src="js/sliderjs.js"></script>
 
 </body>
