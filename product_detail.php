@@ -9,7 +9,7 @@
 <!--  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
 <script src='http://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>   -->
 
-  <link rel='stylesheet prefetch' href='http://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+  <link rel='stylesheet prefetch' href='css/lightslider.css'>
   <link rel="stylesheet" href="css/sliderstyle.css">
 <!-- collapsable -->
 <link rel='stylesheet prefetch' href='css/table.css'>
